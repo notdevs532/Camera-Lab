@@ -84,28 +84,45 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
+.cam-bg {
+    margin-top: 0px;
+    padding: 0px;
+    background-image: url("img/cam-bg.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 130vh;
+    
+}
 .header h1 {
-    font-size: 100px;
-    text-align: center;
+    font-size: 130px;
+    text-align: left;
     color: #490404;
-    margin:130px 0 -15px;
+    margin:90px 20px -30px;
     font-family: 'Bebas Neue', sans-serif;
 }
 
+.header h2 {
+    font-size: 60px;
+    text-align: left;
+    color: #490404;
+    margin-left: 120px;
+    font-family: 'Bebas Neue', sans-serif;
+}
 .header p {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
-    text-align: center;
+    text-align: left;
     color: #2b0404;
+   padding-right: 580px;
+    margin: 40px 50px;
 
 }
 
 .cam-btn {
     display: flex;
-    justify-content: center;
-    margin-top: 120px;
+    justify-content: left;
+    margin: 10px 200px 0;
     padding: 10px 20px;
 }
 .cam-btn a {
@@ -126,8 +143,9 @@
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.top-cam {
-    margin-top: 250px;
+#top-cam {
+    background: #ffecd0;
+    margin-top: 0px;
     text-align: center;
     padding: 45px;
     display: flex;
@@ -135,6 +153,7 @@
     gap: 100px;
 }
 .cam-card {
+    margin-top: 100px;
     width: 320px;
     padding: 20px;
     background: #f5f3ee;
