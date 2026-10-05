@@ -126,37 +126,70 @@
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-.cam {
-    width: 325px;
-    justify-content: center;
-    margin-top: 120px;
-    padding: 10px 20px;
-    background: #ece6e6;
-    border: 4px solid #490404;
-    border-radius: 10px;
+.top-cam {
+    padding: 20px;
 }
+.cam-card {
+    width: 320px;
+    padding: 20px;
 
-.cam-img {
+    background: #f5f3ee;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    font-family: 'Inter', sans-serif;
+    transition:0.3s ease, box-shadow 0.3s ease;
+}
+.cam-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.top{
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
-    align-items: center;
-    border-radius: 10px;
-    overflow: hidden;
-
+    justify-content: space-between;
+    font-weight: bold;
 }
-cam-img img {
+.cam-card img {
     width: 100%;
-    height: 100%;
+    height: 200px;
+    border-radius: 10px;
     object-fit: contain;
 }
+.cam-card p {
+    font-size: 16px;
+    margin:10px 0 0;
 
-.cam-info h2 {
-    font-size: 15px;
-    color: #ffffff;
-    font-family: 'Inter', sans-serif;
+}
+
+.cam-card h2 {
+    font-size: 36px;
+    margin: 5px 0 0;
+    color: #490404;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.cam-card small {
+    color: #888;
+}
+.specs {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 10px;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+} 
+.cam-card a {
+    padding: 5px ;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     font-weight: bold;
+    margin-left: 200px;
+    font-size: small;
+    transition: 0.3s ease;
 
+}
+.cam-card a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
