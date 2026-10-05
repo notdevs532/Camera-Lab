@@ -127,7 +127,12 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .top-cam {
-    padding: 20px;
+    margin-top: 250px;
+    text-align: center;
+    padding: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
 }
 .cam-card {
     width: 320px;
