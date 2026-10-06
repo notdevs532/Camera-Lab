@@ -146,7 +146,6 @@
 #top-cam {
     background: #ffecd0;
     margin-top: 0px;
-    text-align: center;
     padding: 45px;
     display: flex;
     flex-wrap: wrap;
@@ -168,7 +167,7 @@
 }
 .top{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     font-weight: bold;
 }
 .cam-card img {
@@ -253,4 +252,35 @@
     color: #ffffff;
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.compare {
+    background-color: #ffecd0;
+    padding: 0%;
+    margin: 0%;
+}
+.compare-header {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+
+}
+.compare-header p {
+    font-size: 18px;
+    color: #2b0404;
+    margin-bottom: 0px;
+    font-family: 'inter',sans-serif;
+}
+.compare-header h2 {
+    font-size: 50px;
+    color: #490404;
+    font-family:'Bebas Neue', sans-serif;
+    font-weight: bold ;
+    margin-bottom: 4px;
+}
+.compare-header span {
+    font-size: 14px;
+    color: #2b0404;
+    font-family: 'inter',sans-serif;
 }
