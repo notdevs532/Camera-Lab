@@ -284,3 +284,116 @@
     color: #2b0404;
     font-family: 'inter',sans-serif;
 }
+
+.cam-compare {
+    width: 95%;
+    max-width: 1400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+
+.cam1 {
+    min-height: 330px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border: 3px solid #cfcac0;
+    border-radius: 14px;
+    background-color: #f8f7f2;
+    transition: 0.3 ease;
+
+}
+
+.cam1:hover {
+    transform: scale(1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.cam1-img {
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cam1-img img {
+    width: 120%;
+    max-width: 280px;
+    height: 220px;
+    object-fit: contain;
+}
+
+.cam-info {
+    margin: 5px 30px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.cam-info h2 {
+    font-size: 32px;
+    color: #2b0404;
+    font-family: 'bebas neue',sans-serif;
+    margin-bottom: 20px;
+}
+.cam-info p {
+    font-size: 20px;
+    color: #490404;
+    font-family: 'inter',sans-serif;
+    font-weight :bold;
+    letter-spacing: 2px;
+}
+
+.vs {
+    text-align: center;
+    font-family: 'bebas neue',sans-serif;
+    color: #2b0404;
+    font-size:50px;
+}
+
+.comparision-table h2 {
+    font-size: 40px;
+    color: #2b0404;
+    font-family: 'bebas neue',sans-serif;
+    margin: 30px 15px 20px;
+
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+
+th,
+td {
+    padding: 18px;
+    border-bottom: 1px solid #d5d0c5;
+    text-align: center;
+}
+
+th {
+    font-size: 16px;
+    font-family: 'inter',sans-serif;
+    color: #490404;
+    font-weight: bold;
+}
+td {
+    font-size: 16px;
+    font-family: 'inter',sans-serif;
+    color: #490404;
+}
+th:first-child,
+td:first-child {
+    text-align: left;
+}
