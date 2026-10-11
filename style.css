@@ -271,16 +271,20 @@
     color: #2b0404;
     margin-bottom: 0px;
     font-family: 'inter',sans-serif;
+    font-weight:bold ;
+
 }
 .compare-header h2 {
-    font-size: 50px;
+    font-size: 80px;
     color: #490404;
     font-family:'Bebas Neue', sans-serif;
     font-weight: bold ;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
+
 .compare-header span {
-    font-size: 14px;
+    margin: 0;
+    font-size: 19px;
     color: #2b0404;
     font-family: 'inter',sans-serif;
 }
@@ -339,7 +343,7 @@
 
 
 .cam-info h2 {
-    font-size: 32px;
+    font-size: 56px;
     color: #2b0404;
     font-family: 'bebas neue',sans-serif;
     margin-bottom: 20px;
@@ -360,7 +364,7 @@
 }
 
 .comparision-table h2 {
-    font-size: 40px;
+    font-size: 44px;
     color: #2b0404;
     font-family: 'bebas neue',sans-serif;
     margin: 30px 15px 20px;
@@ -412,7 +416,7 @@ td:first-child {
 
 .com-footer a {
     background-color: #ffffff;
-    font-size: 22px;
+    font-size: 39px;
     color: #490404;
     border: 2px solid #490404;
     padding: 10px 20px;
@@ -424,6 +428,79 @@ td:first-child {
 }
 
 .com-footer a:hover {
+    background-color: #490404;
+    color: #ffffff;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.use {
+    background-color: #ffecd0;
+    padding: 0%;
+    margin-bottom:50px ;
+}
+
+.use-header {
+    
+    background-image: url(img/use2.png);
+    margin:0 ;
+    padding-top: 1px;
+    background-position: center;
+    background-size:cover ;
+    min-height: 100vh;
+}
+
+.use-head h1   {
+    color: #2b0404;
+    font-size: 60px;
+    letter-spacing: 0.9px;
+    line-height: 1.03;
+    font-family: 'Bebas Neue', sans-serif;
+    margin:35px 15px 10px;
+
+}
+ .use-head span {
+    color: #696464;
+    font-family: 'inter',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 15px 0;
+}
+
+.use-head p {
+    color: #490404;
+    font-family: 'inter',sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 140px 15px 0;
+}
+
+.use-btn {
+    margin: 34px 0 40px;
+    display: flex;
+    gap: 23px;
+    padding: 10px 20px;
+
+
+}
+
+
+.use-btn a {    
+    background-color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0.6px;
+    color: #490404;
+    border: 2px solid #490404;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.use-btn a:hover {
     background-color: #490404;
     color: #ffffff;
     transform: translateY(-5px);
